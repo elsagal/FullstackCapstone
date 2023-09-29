@@ -1,0 +1,50 @@
+/* PRODUCT CSS */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 100px;
+  gap: 20px;
+}
+
+.card-container .card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur (20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  height: 400px;
+}
+
+.card-container .card img {
+  width: 200px;
+  max-height: 150px;
+}
+
+.singlecard-container .card {
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: space-between;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.singlecard-container .card img {
+  width: 100%;
+  max-height: 300px;
+  padding: 10px 30px;
+}
